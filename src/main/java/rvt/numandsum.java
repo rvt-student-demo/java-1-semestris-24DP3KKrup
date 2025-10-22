@@ -12,12 +12,12 @@ public class numandsum {
         System.out.print("Pedejais skaitlis? ");
         int pedejais = Integer.parseInt(scan.nextLine().trim());
 
-        int sum = 0;
+        int summa = 0;
         for (int i = pirmais; i <= pedejais; i++) {
-            sum += i;
+            summa += i;
         }
 
-        System.out.println("The sum is " + sum);
+        System.out.println("intervala summa ir " + summa);
         scan.close();
     }
 }
