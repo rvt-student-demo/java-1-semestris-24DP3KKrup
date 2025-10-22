@@ -7,10 +7,10 @@ public class numandsum {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Pirmais skaitlis? ");
-        int pirmais = Integer.parseInt(scan.nextLine().trim());
+        int pirmais = Integer.parseInt(scan.nextLine());
 
         System.out.print("Pedejais skaitlis? ");
-        int pedejais = Integer.parseInt(scan.nextLine().trim());
+        int pedejais = Integer.parseInt(scan.nextLine());
 
         int summa = 0;
         for (int i = pirmais; i <= pedejais; i++) {
