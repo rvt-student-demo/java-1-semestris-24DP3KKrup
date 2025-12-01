@@ -6,7 +6,6 @@ public class Statistics {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // MUST be created in this order
         StatsData allNumbers = new StatsData();
         StatsData evenNumbers = new StatsData();
         StatsData oddNumbers = new StatsData();
@@ -33,7 +32,6 @@ public class Statistics {
     }
 }
 
-// This class contains the required functionality of Statistics
 class StatsData {
     private int count;
     private int sum;
