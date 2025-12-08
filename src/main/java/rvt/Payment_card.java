@@ -1,5 +1,4 @@
 package rvt;
-import java.util.Scanner;
 public class Payment_card {
 
     public static void main(String[] args) {
