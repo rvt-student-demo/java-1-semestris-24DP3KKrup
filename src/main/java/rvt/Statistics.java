@@ -29,6 +29,7 @@ public class Statistics {
         System.out.println("Sum: " + allNumbers.sum());
         System.out.println("Sum of even numbers: " + evenNumbers.sum());
         System.out.println("Sum of odd numbers: " + oddNumbers.sum());
+        scanner.close();
     }
 }
 
